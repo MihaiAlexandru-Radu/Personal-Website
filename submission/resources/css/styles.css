@@ -1,0 +1,28 @@
+body {
+    background-color: blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-text {
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Effects below deal with text boxes and text in given text boxes */
+.text-box {
+    background-color: #212529;
+}
+
+.background-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: grey;
+}
+
+.background-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
