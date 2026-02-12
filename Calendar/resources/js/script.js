@@ -15,6 +15,7 @@ function updateLocationOptions(value) {
 function resetForm() {
     document.getElementById("event_form").reset();
     edittedEvent = null;
+    updateLocationOptions();
 }
 
 function saveEvent() { 
