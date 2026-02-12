@@ -15,7 +15,7 @@ function updateLocationOptions(value) {
 function resetForm() {
     document.getElementById("event_form").reset();
     edittedEvent = null;
-    updateLocationOptions();
+    updateLocationOptions("In-Person");
 }
 
 function saveEvent() { 
