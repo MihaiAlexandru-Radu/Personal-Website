@@ -72,7 +72,7 @@ function isValid(eventDetails) {
         document.getElementById("event_location").className += " is-invalid";
         valid = false;
     }
-    let urlPattern = /(https?:\/\/)?(www\[A-Za-z0-9]!@#\$%\^&\*)?.\..+/;
+    let urlPattern = /(https?:\/\/)?(www[A-Za-z0-9]!@#\$%\^&\*)?.\..+/;
     if(eventDetails.modality == "Remote" && !urlPattern.test(eventDetails.url)) {
         document.getElementById("event_remote_url").className += " is-invalid";
         valid = false;
