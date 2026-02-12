@@ -12,6 +12,10 @@ function updateLocationOptions(value) {
     }
 }
 
+function resetForm() {
+    document.getElementById("event_form").reset();
+}
+
 function saveEvent() { 
     eventName = document.getElementById("event_name").value;
     eventWeekday = document.getElementById("event_weekday").value;
